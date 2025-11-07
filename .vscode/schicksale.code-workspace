@@ -1,0 +1,43 @@
+{
+  "folders": [
+    {
+      "name": "Root",
+      "path": "..",
+    },
+    {
+      "name": "Sanity",
+      "path": "../studio",
+    },
+    {
+      "name": "Nuxt",
+      "path": "../web",
+    },
+  ],
+  "settings": {
+    "terminal.integrated.cwd": "${workspaceFolder:Root}",
+    "editor.formatOnSave": false,
+    "eslint.workingDirectories": [
+      {
+        "mode": "auto"
+      }
+    ],
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.fixAll.eslint": "explicit",
+    },
+    "eslint.validate": [
+      "javascript",
+      "typescript",
+      "vue",
+      "html",
+      "json",
+      "css"
+    ],
+    "files.associations": {
+      "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+      "strings": "on"
+    },
+  },
+}
